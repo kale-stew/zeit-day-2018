@@ -10,9 +10,9 @@
     "spectacle": "^4.2.2"
   },
   "scripts": {
-    "build": "react-scripts build",
+    "build": "npm run clean && react-scripts build",
     "clean": "rm -rf ./build",
-    "deploy": "npm run clean && npm run build && gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom"
