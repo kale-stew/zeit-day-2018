@@ -1,6 +1,6 @@
 {
-  "short_name": "machine-learning-for-humans",
-  "name": "Machine Learning for Humans: A Dive into the Basics of Artificial Intelligence",
+  "short_name": "ml-with-js",
+  "name": "Using JavaScript to Teach Machines How to Do Cool Shit",
   "icons": [
     {
       "src": "favicon.ico",
